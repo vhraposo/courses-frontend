@@ -1,27 +1,57 @@
-# CrudFrontend
+#Projeto CRUD Front-End - Lista de Cursos
+Este projeto front-end foi desenvolvido como parte de uma aula ministrada pela Loiane Groner :woman_technologist:, utilizando as tecnologias Angular :atom_symbol: e Angular Material :art:. O objetivo do projeto é criar uma interface para listar cursos que serão fornecidos pelo back-end, implementado em Java.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+Requisitos
+Antes de iniciar o projeto, certifique-se de que o seguinte software esteja instalado em seu ambiente de desenvolvimento:
 
-## Development server
+:computer: Node.js
+:hammer_and_wrench: Angular CLI
+:art: Angular Material
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) na versão 16.0.2.
+
+## Personalização e Adaptação
+Este projeto pode ser personalizado e adaptado de acordo com as necessidades do seu próprio projeto. Alguns pontos que você pode considerar:
+
+- Personalizar o estilo e a aparência utilizando Angular Material e CSS.
+- Adicionar funcionalidades extras, como filtragem ou ordenação dos cursos.
+- Implementar formulários para adicionar, editar ou excluir cursos.
+
+
+
+## Servidor de Desenvolvimento
+
+Execute `ng serve` para iniciar um servidor de desenvolvimento. Acesse `http://localhost:4200/` para visualizar a aplicação. O servidor irá recarregar automaticamente sempre que houver alterações nos arquivos de código-fonte.
+
+
+
+## Scaffolding de Código
+
+Execute `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
 
 ## Build
+Execute `ng build` para construir o projeto. Os artefatos de build serão armazenados no diretório `dist/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Executando Testes Unitários
+Execute `ng test` para executar os testes unitários utilizando o [Karma](https://karma-runner.github.io).
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Executando testes end-to-end 
+Execute `ng e2e` para executar os testes de ponta a ponta utilizando uma plataforma de sua escolha. Para usar este comando, você precisa primeiro adicionar um pacote que implemente recursos de teste de ponta a ponta
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Ajuda Adicional
+Para obter mais ajuda sobre o Angular CLI, utilize `ng help` ou consulte a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuição
+Se você identificou algum problema ou gostaria de adicionar novos recursos a este projeto, sinta-se à vontade para contribuir. Basta seguir as diretrizes para contribuição do GitHub e enviar um pull request.
+
+Este projeto está licenciado sob a licença MIT.
+
+
+
+
