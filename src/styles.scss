@@ -10,5 +10,6 @@ $custom-theme: mat-light-theme($custom-app-primary, $custom-app-secondary, $cust
 
 @include angular-material-theme($custom-theme);
 
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
