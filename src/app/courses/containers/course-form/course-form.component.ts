@@ -35,13 +35,12 @@ export class CourseFormComponent implements OnInit{
       _id: course._id,
       name: course.name,
       category: course.category
-
     })
    }
 
   onSubmit(){
     this.service.save(this.form.value).subscribe(result => this.onSucess(), error=> this.onError());
-
+    
 
   }
 
