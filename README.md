@@ -1,5 +1,5 @@
 #Projeto CRUD Front-End - Lista de Cursos
-Este projeto front-end foi desenvolvido como parte de uma aula ministrada pela Loiane Groner :woman_technologist:, utilizando as tecnologias Angular :atom_symbol: e Angular Material :art:. O objetivo do projeto é criar uma interface para listar cursos que serão fornecidos pelo back-end, implementado em Java.
+
 
 Requisitos
 Antes de iniciar o projeto, certifique-se de que o seguinte software esteja instalado em seu ambiente de desenvolvimento:
@@ -23,7 +23,7 @@ Este projeto pode ser personalizado e adaptado de acordo com as necessidades do 
 
 ## Servidor de Desenvolvimento
 
-Execute `ng serve` para iniciar um servidor de desenvolvimento. Acesse `http://localhost:4200/` para visualizar a aplicação. O servidor irá recarregar automaticamente sempre que houver alterações nos arquivos de código-fonte.
+Execute `ng serve` para iniciar um servidor de desenvolvimento. Acesse `http://localhost:4200/` para visualizar a aplicação. O servidor irá recarregar automaticamente sempre que houver alterações nos arquivos de código-fonte. Para iniciar juntamente ao back end inicie com `npm run start`.
 
 
 
