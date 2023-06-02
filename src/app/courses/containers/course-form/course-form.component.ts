@@ -59,8 +59,8 @@ export class CourseFormComponent implements OnInit{
     this.snackBar.open('Erro ao salvar curso.', '', {duration: 5000});
   }
 
-  getErrorMessage(fielName: string){
-    const field = this.form.get(fielName);
+  getErrorMessage(fieldName: string){
+    const field = this.form.get(fieldName);
 
     if(field?.hasError('required')){
       return 'Campo obrigatório'

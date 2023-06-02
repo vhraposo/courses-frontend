@@ -1,17 +1,16 @@
 import { TestBed } from '@angular/core/testing';
-import { ResolveFn } from '@angular/router';
 
-import { courseResolver } from './course.resolver';
+import { CourseResolver } from './course.resolver';
 
-describe('courseResolver', () => {
-  const executeResolver: ResolveFn<boolean> = (...resolverParameters) => 
-      TestBed.runInInjectionContext(() => courseResolver(...resolverParameters));
+describe('CourseResolver', () => {
+  let resolver: CourseResolver;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
+    resolver = TestBed.inject(CourseResolver);
   });
 
   it('should be created', () => {
-    expect(executeResolver).toBeTruthy();
+    expect(resolver).toBeTruthy();
   });
 });
